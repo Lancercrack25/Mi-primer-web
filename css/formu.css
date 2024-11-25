@@ -1,0 +1,276 @@
+body
+{
+font-family: cursive;
+background-image: url(https://upload.forumfree.net/i/ff11300847/Chara_Frisk.gif) ;
+}
+
+ul
+{
+list-style: none ;
+padding: 0;
+margin: 0;
+background:red;
+line-height: 30px;
+width: 180px;
+border-bottom: none;
+}
+
+li
+{
+width: 122px;
+display: inline-block;
+text-align: center;
+}
+
+a
+{
+text-decoration:none;
+display: block;
+color:black;
+}
+
+a:hover
+{
+background:black;
+color:red;
+}
+
+*{
+	margin:0 ;
+	padding:0;
+}
+header
+{
+width:101%;
+
+}
+
+nav
+{
+margin:20px auto;
+width:90%;
+max-width:1000px ;
+}
+
+nav ul 
+{
+list-style:none;
+}
+
+nav > ul
+{
+display:table;
+overflow:hidden;
+width:100%;
+position:relative;
+}
+
+nav > ul li
+{
+display: table-cell;
+}
+
+nav > ul >li > ul
+{
+display:none;
+}
+
+nav > ul li a
+{
+display: block;
+line-height: 40px;
+padding:7px;
+position: relative;
+text-align: center ;
+text-decoration:none;
+color:black ;
+}
+
+ nav > ul > li:hover > ul
+ {
+ display: block;
+ height: 100%;
+ }
+
+footer
+{
+font-family: monospace;
+font-size:22px;
+color:black;
+width:2000px;
+padding:16px;
+background:red;
+}
+
+label
+{
+font-family:sans-serif ;
+color:forestgreen;
+}
+
+input
+{
+border: 0;
+background:none ;
+display:block;
+margin:2px;
+border:5px solid white;
+padding: 14px 13px;
+border-radius:20px;
+transition:.30s;
+color:white ;
+border-left-color:red;
+border-right-color:red;
+}
+
+input:hover
+{
+border: 0;
+background:none ;
+display:block;
+margin:2px;
+border:5px solid orange;
+padding: 14px 13px;
+border-radius:20px;
+transition:.30s;
+color:white ;
+border-left-color:blue;
+border-right-color:blue;
+}
+
+.form
+{
+width:190px;
+padding:130px;
+background:black;
+}
+select
+{
+border: 0;
+background:none ;
+display:block;
+margin:2px;
+border:5px solid white;
+padding: 14px 13px;
+border-radius:20px;
+transition:.30s;
+color:white;
+background:black;
+border-left-color:red;
+border-right-color:red;
+}
+
+select:hover
+{
+border: 0;
+background:none ;
+display:block;
+margin:2px;
+border:5px solid orange;
+padding: 14px 13px;
+border-radius:20px;
+transition:.30s;
+color:white;
+background:black;
+border-left-color:blue;
+border-right-color:blue;
+}
+
+textarea
+{
+border: 0;
+background:none ;
+display:block;
+margin:2px;
+border:5px solid white;
+padding: 14px 13px;
+border-radius:20px;
+transition:.30s;
+color:white;
+background:black;
+border-left-color:red;
+border-right-color:red;
+}
+
+textarea:hover
+{
+border: 0;
+background:none ;
+display:block;
+margin:2px;
+border:5px solid orange;
+padding: 14px 13px;
+border-radius:20px;
+transition:.30s;
+color:white;
+background:black;
+border-left-color:blue;
+border-right-color:blue;
+}
+
+button
+{
+background:none;
+border:none;
+}
+
+
+
+h1, h2
+{
+font-family:cursive;
+font-size: 32px;
+color:red;
+}
+
+@media screen and(max-width: 800px){
+
+header nav {
+    width:103%;
+    height:100%;
+    left:100%;
+    margin:0;
+    position: absolute;
+
+  }
+
+  header nav ul li {
+    display:block;
+    float:none;
+    border-bottom:2px solid rgba(255,255,255, .3);
+  }
+
+  .menu_bar {
+    display:block;
+    width:105%;
+    position: static;
+  }
+
+  .menu_bar .bt-menu {
+    display:block;
+    padding:20px;
+   background: red;
+    color:black;
+    text-decoration:none;
+    font-weight: bold;
+    font-size:25px;
+    font-family: cursive;
+  }
+
+  .menu_bar span {
+    float:right;
+    font-size:40px;
+  }
+
+
+footer
+{
+font-family: monospace;
+font-size:22px;
+color:black;
+width:500px;
+padding:16px;
+background:red;
+}
+
+}

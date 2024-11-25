@@ -1,0 +1,177 @@
+body
+{
+font-family:cursive;
+background-image: url(https://i.pinimg.com/originals/b4/ae/21/b4ae211e901f49594178279c76dab912.jpg);
+}
+h1, h2, h3, h4
+{
+color:#E3DAC9;
+font-family: cursive;
+font-size:32px;
+}
+
+ul
+{
+list-style: none ;
+padding: 0;
+margin: 0;
+background:#000000;
+line-height: 30px;
+width: 180px;
+border-bottom: none;
+}
+
+li
+{
+width: 122px;
+display: inline-block;
+text-align: center;
+}
+
+a
+{
+text-decoration:none;
+display: block;
+color: #fff;
+}
+
+a:hover
+{
+background:red;
+color:ghostwhite;
+}
+
+*{
+	margin:0 ;
+	padding:0;
+}
+header
+{
+width:101%;
+}
+
+nav
+{
+margin:20px auto;
+width:90%;
+max-width:1000px ;
+}
+
+nav ul 
+{
+list-style:none;
+}
+
+nav > ul
+{
+display:table;
+overflow:hidden;
+width:100%;
+position:relative;
+}
+
+nav > ul li
+{
+display: table-cell;
+}
+
+nav > ul >li > ul
+{
+display:none;
+}
+
+nav > ul li a
+{
+display: block;
+line-height: 40px;
+padding:7px;
+position: relative;
+text-align: center ;
+text-decoration:none;
+color:#ff0000 ;
+}
+
+/*esta porpiedad sirve para poder poner un menu desplegable*/
+ nav > ul > li:hover > ul
+ {
+ display: block;
+ height: 100%;
+ }
+p.creador
+{
+font-family:sans-serif;
+color:ghostwhite;
+font-size:25px;
+
+}
+p.acerca
+{
+font-family:sans-serif;
+color:ghostwhite;
+font-size:25px;
+}
+img
+{
+padding:auto;
+}
+footer
+{
+font-family: monospace;
+font-size:20px;
+color:red;
+width:2000px;
+padding:16px;
+background:black;
+}
+
+@media screen and(max-width: 800px)
+{
+header nav {
+    width:103%;
+    height:100%;
+    left:100%;
+    margin:0;
+    position: absolute;
+
+  }
+
+  header nav ul li {
+    display:block;
+    float:none;
+    border-bottom:2px solid rgba(255,255,255, .3);
+  }
+
+  .menu_bar {
+    display:block;
+    width:105%;
+    position: static;
+  }
+
+  .menu_bar .bt-menu {
+    display:block;
+    padding:20px;
+   background: black;
+    color:red;
+    text-decoration:none;
+    font-weight: bold;
+    font-size:25px;
+    font-family: cursive;
+  }
+
+  .menu_bar span {
+    float:right;
+    font-size:40px;
+  }
+
+footer
+{
+font-family: monospace;
+font-size:20px;
+color:red;
+width:500px;
+padding:16px;
+background:black;
+}
+}
+
+}
